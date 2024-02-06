@@ -28,17 +28,17 @@ const Intro = () => {
           <span style={{ color: darkMode && "white" }}>Hy! I Am</span>
           <span>Mohan Singh</span>
           <span>
-          A web developer with a strong focus on ReactJS and a passion for learning new technologies. I am currently learning Node.js, Express.js, and MongoDB, and I am eager to use these technologies to build robust and scalable web applications.
+            I am a passionate and skilled Full Stack Web Developer with expertise in building modern and responsive web applications. Proficient in the MERN (MongoDB, Express.js, React.js, Node.js) stack and recently learn new skill like Next.js and Tailwind.css, I leverage my knowledge of front-end and back-end technologies to create seamless user experiences.
           </span>
         </div>
         <button className="button i-button">Hire me</button>
         <div className="i-icons">
-        <a href={githubLink}><img src={Github} alt="github" /></a>
-        <a href={linkedinLink}><img src={LinkedIn} alt="LinkdIn" /></a>
-        <a href={instagramLink}><img src={Instagram} alt="Instagram" /></a>
-          
-          
-          
+          <a href={githubLink}><img src={Github} alt="github" /></a>
+          <a href={linkedinLink}><img src={LinkedIn} alt="LinkdIn" /></a>
+          <a href={instagramLink}><img src={Instagram} alt="Instagram" /></a>
+
+
+
         </div>
       </div>
       <div className="i-right">
@@ -59,7 +59,7 @@ const Intro = () => {
           style={{ top: "-4%", left: "68%" }}
           className="floating-div"
         >
-          <FloatingDiv image={Crown} txt1="Web" txt2="Developer" />
+          <FloatingDiv image={Crown} txt1="Fullstack" txt2="Developer" />
         </motion.div>
         <motion.div
           initial={{ left: "9rem", top: "18rem" }}
@@ -68,7 +68,7 @@ const Intro = () => {
           style={{ top: "18rem", left: "1rem" }}
           className="floating-div"
         >
-          <FloatingDiv image={thumbup} txt1="Best Design" txt2="Award" />
+          <FloatingDiv image={thumbup} txt1="Responsive" txt2="Designer" />
         </motion.div>
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
         <div

@@ -19,9 +19,9 @@ const Services = () => {
         <span style={{ color: darkMode && "white" }}>My Awesome</span>
         <span>Services</span>
         <span>
-        <strong>Front-end development:</strong> I have strong experience in ReactJS, a popular JavaScript library for building user interfaces. I can use React to create fast, interactive, and user-friendly interfaces for your web applications.
-<br /><br /><strong>Back-end development:</strong> I am currently learning Node.js, Express.js, and MongoDB, which are popular technologies for building back-end web applications in JavaScript. I am eager to use these technologies to build robust and scalable back-ends for your applications.
-<br /><br /><strong>Full-stack development:</strong> I have the skills and experience to develop both the front-end and back-end of your web applications. This means that I can be your one-stop shop for all of your web development needs.
+          <strong>Front-end development:</strong> Elevate digital presence with captivating frontend solutions. Utilizing React.js, Next.js, and Tailwind CSS, craft visually stunning interfaces. Expertise ensures pixel-perfect designs and seamless interactions.
+          <br /><br /><strong>Back-end development:</strong> Empower applications with scalable backend solutions. Leveraging Node.js and Express.js, architect secure server-side systems. From database management to API development, deliver speed and reliability.
+          <br /><br /><strong>Full-stack development:</strong> Experience seamless integration of frontend and backend technologies. With MERN stack expertise, including Next.js and Tailwind CSS, bring visions to life. From concept to deployment, ensure cohesive digital experiences.
         </span>
         <a href={resume} download>
           <button className="button s-button">Download CV</button>
@@ -42,27 +42,27 @@ const Services = () => {
             detail={"C++, JavaScript, Basic of Python"}
           />
         </motion.div>
-        <motion.div 
-        whileInView={{ left: "1rem", top: "12rem" }}
+        <motion.div
+          whileInView={{ left: "1rem", top: "12rem" }}
           initial={{ left: "1rem", top: "9rem" }}
           transition={transition}
-        style={{ left: "-4rem", top: "12rem" }}>
+          style={{ left: "-4rem", top: "12rem" }}>
           <Card
             emoji={glasses}
             heading={"Developer"}
-            detail={"HTML, CSS, JavaScript, ReactJs, Redux, NodeJs, ExpressJs, RestAPI"}
+            detail={"HTML, Tailwind CSS, JavaScript, MERN, NextJs, RestAPI"}
           />
         </motion.div>
-        <motion.div 
-        whileInView={{ left: "16rem", top: "21rem" }}
+        <motion.div
+          whileInView={{ left: "16rem", top: "21rem" }}
           initial={{ left: "26rem", top: "21rem" }}
           transition={transition}
-        style={{ left: "12rem", top: "19rem" }}>
+          style={{ left: "12rem", top: "19rem" }}>
           <Card
             emoji={humble}
             heading={"UI/UX"}
             detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
+              "Figma"
             }
           />
         </motion.div>
